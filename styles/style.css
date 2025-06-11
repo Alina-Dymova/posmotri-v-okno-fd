@@ -158,8 +158,8 @@ ol {
   cursor: pointer;
 }
 
-.search-form__label:hover {
-  text-decoration: none;
+.search-form__label-text:hover {
+  text-decoration: underline;
 }
 
 .search-form__pseudo-checkbox {
@@ -284,10 +284,11 @@ ol {
 }
 
 .content__card-link_current {
-  background-color: #1b1919;
+  background-color: #545050;
 }
 
 .content__card-link {
+  display: block;
   font-weight: 400;
   font-size: 18px;
   line-height: 90%;
