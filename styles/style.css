@@ -106,6 +106,14 @@ ol {
   flex-wrap: nowrap;
 }
 
+.search-form__label .search-form__label-text {
+  text-decoration: none;
+}
+
+.search-form__label:hover .search-form__label-text {
+  text-decoration: underline;
+}
+
 .search-form__textfield {
   font-family: "Fira Sans Condensed", sans-serif;
   border: 0;
